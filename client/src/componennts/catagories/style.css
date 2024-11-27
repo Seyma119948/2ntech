@@ -1,0 +1,4 @@
+.category-item {
+  @apply bg-teal-500 px-6 py-10 text-gray-700  cursor-pointer
+    hover:bg-gray-500 hover:text-white transition-all text-center min-w-[145px];
+}

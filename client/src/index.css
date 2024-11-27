@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Electrolize", sans-serif;
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  .ant-btn-primary {
+    background-color: #1677ff;
+  }
+  .catagories::-webkit-scrollbar {
+    display: none;
+  }
+}
